@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../assets/fonts/Nunito-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito";
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

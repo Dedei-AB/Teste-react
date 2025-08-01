@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("../assets/fonts/Nunito-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 4rem 3rem 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #efefef;
+}
+
+.container-despesas {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  padding: 1rem 1rem 3rem 3rem;
+}
+
+.categorias-fixas {
+  padding-left: 5rem;
+}
+
+.categorias-variaveis {
+  padding-left: 5rem;
+}
